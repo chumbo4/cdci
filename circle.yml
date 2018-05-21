@@ -1,0 +1,6 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - git remote add production dokku@18.207.17.46:sample-node-app
+      - git push production master
